@@ -1,0 +1,72 @@
+/* Use this file to use your own styles*/
+
+/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Styles for the body */
+
+body {
+	font-family: 'Comfortaa', cursive;
+	background-image: linear-gradient(to bottom right, lightpink, white);
+}
+h1 {
+	color: darkslategrey
+}
+h5 {
+	color: deeppink
+}
+a {
+	color: deeppink
+}
+h6 {
+	color: black
+}
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+
+.resume-header {
+    background-color: #DEF6D1;
+}
+
+.resume-main {
+	background-color: #C8C4D5;
+}
+
+.resume-aside {
+	background-color: #FAEAA8;
+}
+
+/* Styles for lists in the document */
+
+.biography-details li::before, .skill-list li::before {
+	content: ">";
+	font-weight: 800;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.biography-details li::before {
+	color: pink;
+}
+
+.biography-details li, .skill-list li {
+	padding-left: 1em;
+}
+
+/* Styles for contact icons */
+
+.contact-icon {
+	height: 1em;
+	flex-basis: 1.4em;
+}
+.language-level {
+	color: deeppink;
+	border-color: deeppink!important;
+}
+.language-progress {
+	background-color: deeppink!important;
+}
+
+
+
+
